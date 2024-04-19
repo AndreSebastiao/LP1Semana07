@@ -1,9 +1,12 @@
+using System;
+
 namespace GameUnits
 {
     public class Unit
     {
         private int movement;
-        public int Health { get; set; }
+        public virtual Health { get; set; }
+        public abstract float Cost { get; }
 
         public Unit(int movement, int health)
         {
