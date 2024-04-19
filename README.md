@@ -4,6 +4,9 @@
 
 classDiagram
 
+    Character --* Program
+    Weapon --* Character
+
     Character <|-- Enemy
     Character <|-- Player
     Weapon <|-- Gun
