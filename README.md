@@ -4,9 +4,6 @@
 
 classDiagram
 
-    Character --* Program: Array Used in Main()
-    Weapon --* Character: Array of weapons
-    
     Character <|-- Enemy
     Character <|-- Player
     Weapon <|-- Gun
